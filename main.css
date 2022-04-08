@@ -1,0 +1,95 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+.container{
+  background: rgb(0, 0, 0);
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  align-items: center;
+  padding : 10px 0px
+}
+header .logo {
+  width: 50px;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  list-style: none;
+  padding: 8px 15px;
+  text-decoration: none;
+  margin: 0 10px ;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform:capitalize;
+  color:#eee;
+  
+}
+header ul li a:hover {
+  background : white;
+  color: black;
+  border-radius: 5px;
+  
+
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  }
+.content .text{
+  width: 40%;
+  color:#fff
+}
+.content .text h2{
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.content .text p{
+  font-size: 15px;
+  margin: 20px 0 ;
+}
+.content .text a{
+  text-decoration: none;
+  background: white;
+  color:black;
+  padding : 8px 15px ;
+  border-radius: 10px;
+
+}
+.content .image{
+  width: 30%;
+}
+.content .image .img0{
+ width: 250px;
+}
+.icons{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform : translateX(-50%);
+  
+}
+.icons img{
+  width: 40px;
+  padding: 0 9px;
+}
+.icons img:hover{
+  width: 50px;
+  transition: 0.3s;
+  cursor: pointer;
+  color: skyblue
+}
